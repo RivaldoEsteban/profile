@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="estilos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -14,34 +16,39 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-s
+
 <body>
   <div class="wrapper">
-    <section class="center">
-      <div>
-        <img class="image" src="images/bg-pattern-card.svg" alt="">
+    <section class="box">
+      <div class="header">
+        <img class="image1" src="images/bg-pattern-card.svg" alt="">
       </div>
-      <div>
-        <img src="images/image-victor.jpg" alt="">
-      </div>
-      <div>
-        <p class="black">
-          Victor Crest 26
-        </p>
-        <P class="gray">London</P>
-      </div>
-      <footer>
+      <section class="centro">
+        <div  >
+          <img class="image2" src="images/image-victor.jpg" alt="">
+        </div>
         <div>
+          <div class="flex">
+            <p class="black1">
+              Victor Crest
+            </p>
+            <p class="gray1">26</p>
+          </div>
+          <p class="gray">London</p>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="caja">
           <p class="black">80k</p>
           <p class="gray">Followers</p>
         </div>
-        <div>
+        <div class="caja">
           <p class="black">803K</p>
           <p class="gray">Likes</p>
         </div>
-        <div>
+        <div class="caja">
           <p class="black">1.4K</p>
-          <P class="grayq">Photos</P>
+          <P class="gray">Photos</P>
         </div>
       </footer>
     </section>

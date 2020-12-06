@@ -1,6 +1,13 @@
 body {
   margin: 0px;
+  background-color: hsl(185, 75%, 39%);
 }
 .wrapper{
   max-width: 1440px;
+}
+.center{
+  width: 350px;
+}
+.image{
+  border-radius: 0 10px ;
 }
